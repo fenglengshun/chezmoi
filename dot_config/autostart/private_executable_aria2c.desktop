@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=/usr/bin/aria2c --enable-rpc
+GenericName[en_US]=
+GenericName=
+Icon=
+MimeType=
+Name[en_US]=aria2c
+Name=aria2c
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

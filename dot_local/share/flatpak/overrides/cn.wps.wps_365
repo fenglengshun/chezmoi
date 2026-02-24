@@ -1,3 +1,3 @@
 [Context]
-filesystems=home:create;
+filesystems=home:create;!xdg-documents/WPS Cloud Files;
 shared=!network;
