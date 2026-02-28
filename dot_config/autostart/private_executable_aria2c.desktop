@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=/usr/bin/aria2c --enable-rpc
+Exec=/usr/bin/aria2c --enable-rpc --rpc-secret $(stat -c %W $HOME)
 GenericName[en_US]=
 GenericName=
 Icon=
