@@ -13,3 +13,4 @@ paru -Su --noconfirm --needed --skipreview gallery-dl media-downloader peazip qd
 paru -Su --noconfirm --needed --skipreview whitesur-gtk-theme whitesur-icon-theme whitesur-kde-theme
 paru -Su --noconfirm --needed --skipreview proton-authenticator-bin proton-pass-bin
 paru -Su --noconfirm --needed --skipreview mangal-bin mov-cli mangayomi-linux adbtuifm
+paru -Su --noconfirm --needed --skipreview grayjay-bin edconv-bin
