@@ -1,6 +1,6 @@
 #! /bin/bash
 pacman -Su --noconfirm --needed wl-clipboard paru nano
-paru -Su --noconfirm --needed --skipreview gtk-nocsd-git
+paru -Su --noconfirm --needed --skipreview gtk-nocsd-git rmtrash
 
 paru -Su --noconfirm --needed --skipreview octopi aria2 rsync bat grc highlight zsync ripgrep ripgrep-all erdtree bottom
 paru -Su --noconfirm --needed --skipreview firefox google-chrome microsoft-edge-stable-bin vivaldi vivaldi-ffmpeg-codecs
