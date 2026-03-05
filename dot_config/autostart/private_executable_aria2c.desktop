@@ -1,14 +1,13 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=/usr/bin/aria2c --enable-rpc --rpc-secret $(stat -c %W /home/fenglengshun) --save-session=/home/fenglengshun/.local/share/aria2c-session --save-session-interval=10 --force-save=true --save-not-found=true
+Exec=/bin/bash -c '/usr/bin/aria2c --enable-rpc --rpc-secret $(stat -c %W /home/fenglengshun) --save-session=/home/fenglengshun/.local/share/aria2c-session --save-session-interval=10 --force-save=true --save-not-found=true'
 GenericName[en_US]=
 GenericName=
 Icon=
 MimeType=
 Name[en_US]=aria2c
 Name=aria2c
-Path=
 StartupNotify=true
 Terminal=false
 TerminalOptions=
