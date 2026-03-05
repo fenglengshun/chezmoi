@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/fenglengshun/.local/bin/aria2-rpc-autostart.sh
+Icon=application-x-shellscript
+Name=aria2-rpc-autostart.sh
+Type=Application
+X-KDE-AutostartScript=true
