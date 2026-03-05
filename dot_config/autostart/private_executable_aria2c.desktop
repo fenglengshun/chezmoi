@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=/bin/bash -c '/usr/bin/aria2c --enable-rpc --rpc-secret $(stat -c %W /home/fenglengshun) --save-session=/home/fenglengshun/.local/share/aria2c-session --save-session-interval=10 --force-save=true --save-not-found=true'
+Exec=/bin/bash -c '/usr/bin/aria2c --enable-rpc --rpc-secret $(cat /home/fenglengshun/.config/aria2-secret) --save-session=/home/fenglengshun/.local/share/aria2c-session --save-session-interval=10 --force-save=true --save-not-found=true'
 GenericName[en_US]=
 GenericName=
 Icon=
